@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { Link } from "react-router-dom";
 import logo from '../images/Logo.svg'
 import { FaBars } from "react-icons/fa";
 
@@ -19,22 +20,25 @@ const Nav =() =>{
 
         <ul className={`nav-links ${menuOpen? "visible" : ""}`}>
             <li>
-                <a href='/'>HOME</a>
+                <Link to='/'>HOME</Link>
             </li>
             <li>
-                <a href='/'>ABOUT</a>
+                <Link to="/menu">MENU</Link>
             </li>
             <li>
-                <a href='/'>MENU</a>
+                <Link to="/testimonials">TESTIMONIALS</Link>
             </li>
             <li>
-                <a href='/'>RESERVATIONS</a>
+                <Link to="/about">ABOUT</Link>
             </li>
             <li>
-                <a href='/'>ORDER ONLINE</a>
+                <Link to='/'>RESERVATIONS</Link>
             </li>
             <li>
-                <a href='login'>LOGIN</a>
+                <Link to='/'>ORDER ONLINE</Link>
+            </li>
+            <li>
+                <Link to='login'>LOGIN</Link>
             </li>
         </ul>
     </nav>

@@ -374,10 +374,177 @@ footer ul li{
   padding: 8px 0;
 }
 
-/*footer section{
-  padding: 10px 8%;
+
+
+.btnReceive{
+  padding: 12px 16px;
+  margin-top: 30px;
+  background-color: #495E57;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+
 }
-/*.company-info p{
-  width: 100%;
+
+.submitbtn{
+  padding: 12px 16px;
+  margin-top: 30px;
+  background-color: #495E57;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+}
+
+/*.confirm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f8ff;
+}
+
+.confirm h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+}
+
+.confirm span {
+  color: #27ae60;
 }*/
+
+form, .comfirm{
+  padding: 10px 13%;
+}
+
+.formField{
+  padding: 50px 20px;
+}
+
+label{
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  color: #EDEFEE;
+}
+
+label::after{
+  content: "*";
+  color:red;
+  font-size:15px
+}
+input{
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  color: black;
+
+}
+#book-date, #book-time, #book-guests, #book-occasion, #seating{
+  background: #EDEFEE;
+  padding: 8px 24px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+}
+
+
+
+
+/*.comfirm span{
+  color: blue;
+}*/
+
+.confirm {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.confirm h1 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.showDataStyle {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.showDataStyle p {
+  font-size: 16px;
+  color: #333;
+}
+
+.showDataStyle p span {
+  font-weight: bold;
+}
+
+.showDataStyle p br {
+  margin: 5px 0;
+}
+
+.confirm .confirmation-message {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4CAF50;
+  text-align: center;
+}
+
+.image-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.image-container{
+  margin: 110px auto;
+  padding: 10px 13%;
+}
+
+
+
+.image-container img {
+  width: 100%;
+  height: 400px;
+  border-radius: 8px;
+
+}
+
+.booking-container{
+  background-color: #495e57;
+}
+
+.booking-container h2{
+  color: #F4CE14;
+  font-size: 40px;
+  padding: 10px 13%;
+
+}
+
+.booking-container h3{
+  font-size: 25px;
+  padding: 10px 13%;
+}
+
+.booking-container h4{
+  font-size: 25px;
+  padding: 10px 13%;
+}
+
+#firstname, #lastname, #phonenumber, #email, #password{
+  background: #EDEFEE;
+  padding: 8px 24px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+}
 

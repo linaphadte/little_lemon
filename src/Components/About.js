@@ -5,8 +5,9 @@ import boximg2 from '../images/Mario and Adrian b.jpg';
 
 const About =() =>{
   return (
+    <section>
     <header className="box-header">
-        <section>
+        <section id="About">
             <div className="box">
                 <h2>Little Lemon</h2>
                 <h3>Chicago</h3>
@@ -21,7 +22,7 @@ const About =() =>{
 
         </section>
     </header>
-
+    </section>
   );
 }
 

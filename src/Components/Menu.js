@@ -4,6 +4,7 @@ import recipes from '../recipes';
 
 const Menu =() =>{
   return (
+    <section id="Menu">
     <div className="menu-container">
         <div className="menu-header">
             <h2>This weeks specials!</h2>
@@ -30,7 +31,7 @@ const Menu =() =>{
         </div>
 
     </div>
-
+</section>
  );
 }
 
