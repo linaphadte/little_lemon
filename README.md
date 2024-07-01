@@ -106,58 +106,44 @@ Little-Lemon/
 # User Documentation
 
 ## Landing Page
+<img src="https://github.com/linaphadte/little_lemon/blob/master/Landingpage.png" alt="landingpage">
 Landing Page consists of a Navbar that provides easy navigation across the website, and sections like Home, Specials, Testimonials, About, Footer.
 
-### Home Section
-
+## Home Section
+<img src="https://github.com/linaphadte/little_lemon/blob/master/Home.png" alt="homesection">
 The home section provides a welcoming introduction to the restaurant, highlighting its location and offering a call-to-action button for table reservations.
 
-![Home Section](images/home-page.png)
-
-### Specials Section
-
+## Specials Section
+<img src="https://github.com/linaphadte/little_lemon/blob/master/Specials.png" alt="specialssection">
 This section showcases the weekly specials, featuring enticing images, descriptions and price of menu items, each with an "Order Now" button to encourage user engagement.
 
-![Specials Section](images/specials-page.png)
-
-
 ## Testimonials Section
-
+<img src="https://github.com/linaphadte/little_lemon/blob/master/Testimonials.png" alt="testimonialssection">
 The testimonials section features reviews and feedback from satisfied customers, adding credibility and trust to the restaurant's reputation.
 
-![Testimonials Section](images/testimonials-page.png)
-
 ## About Section
-
+<img src="https://github.com/linaphadte/little_lemon/blob/master/About.png" alt="aboutsection">
 The about section provides information about the restaurant, its history, and its mission, helping users to connect with the brand and understand its values.
-
-![About Section](images/about-page.png)
 
 ## Footer Section
 
 The footer section contains important links and information, including contact details, social media links, and copyright information, providing users with easy access to additional resources and ways to connect with the restaurant.
 
-![Footer Section](images/footer-page.png)
-
-
 ## Login Page
-
+<img src="https://github.com/linaphadte/little_lemon/blob/master/Loginpage.png" alt="loginpage">
 Users can log in with their details to access and manage their reservations. 
 
-![Login Page](images/login-page.png)
-
 ## Table Reservation Page
-
+<img src="https://github.com/linaphadte/little_lemon/blob/master/Reservation1.png" alt="reservation1section">
+<img src="https://github.com/linaphadte/little_lemon/blob/master/Reservation2.png" alt="reservation2section">
 The table reservation page allows users to select a date, time, number of guests and seating preferences for their reservation. The form validation ensures that all necessary information is provided before submission.
 
-![Table Reservation Page](images/reservation-page.png)
-
 ## Confirmation Page
-
+<img src="https://github.com/linaphadte/little_lemon/blob/master/Confirmationpage.png" alt="confirmationpagesection">
 After successfully making a reservation, users are redirected to the confirmation page, which provides details of the reservation and confirms that it has been successfully recorded.
 
-![Confirmation Page](images/confirmation-page.png)
 ## Ideas for Future Development
+
 ## Contact
 
 For any inquiries or feedback, please feel free to reach out:
