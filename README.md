@@ -1,70 +1,173 @@
-# Getting Started with Create React App
+# Restaurant Dine-In Reservation Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Restuarant Application using ReactJS showcasing dynamic reservation capabilities, robust user authentication, and real-time updates. Elevating user engagement with a visually captivating interface and seamless navigation.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Frontend Details](#frontend-details)
+- [Dependencies](#dependencies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [User Documentation](#user-documentation)
+- [Ideas For Future Developemnt](#ideas-for-future-developemnt)
+- [Contact](#contact)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Dynamic reservations
+- User authentication
+- Real-time updates
+- Visually appealing design
+- Seamless navigation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Frontend Details
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The UI design for this project was created using Figma. The design focuses on providing a user-friendly interface with clear navigation and an appealing aesthetic.
 
-### `npm run build`
+You can view the Figma design [here](https://www.figma.com/design/nidT8B5gAdjbDqTrgRFnNN/Untitled?m=dev&node-id=0-1&t=2aSq54NqErX9aabb-1).
+## Dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [npm](https://www.npmjs.com/)
+- [react](https://reactjs.org/)
+- [react-router-dom](https://reactrouter.com/web/guides/quick-start)
+- [react-icons](https://react-icons.github.io/react-icons/)
+- [react-scripts](https://www.npmjs.com/package/react-scripts)
+- [react-scroll](https://www.npmjs.com/package/react-scroll)
+- [react-slick](https://react-slick.neostack.com/)
+- [slick-carousel](https://www.npmjs.com/package/slick-carousel)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/linaphadte/little_lemon.git
+    ```
 
-### `npm run eject`
+2. Navigate to the project directory:
+    ```bash
+    cd little-lemon
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install the dependencies:
+    ```bash
+    npm install
+    npm install react-router-dom
+    npm install react-icons --save
+    npm install react-scroll
+    npm install react-icons --save
+    npm install slick-carousel
+    ```
+    
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Run the application:
+    ```bash
+    npm start
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Open your browser and go to `http://localhost:3000` to see the application in action.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project Structure
 
-## Learn More
+```plaintext
+Little-Lemon/
+├── node_modules/
+├── public/
+├── src/
+│   ├── Components/               
+│   │   ├── About.js
+│   │   ├── Booking.js
+│   │   ├── BookingForm.js
+│   │   ├── ConfirmedBooking.js
+│   │   ├── Footer.js
+│   │   ├── Header.js
+│   │   ├── Login.js
+│   │   ├── Main.js
+│   │   ├── Menu.js
+│   │   ├── Nav.js
+│   │   ├── Testimonials.js
+│   ├── images/                  
+│   ├── App.css                  
+│   ├── App.js
+│   ├── App.test.js
+│   ├── customers.js
+│   ├── index.css
+│   ├── index.js
+│   ├── recipes.js
+│   ├── reportWebVitals.js
+│   ├── setupTests.js
+├── .gitignore
+├── package.json
+└── README.md
+```
+# User Documentation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Landing Page
+Landing Page consists of a Navbar that provides easy navigation across the website, and sections like Home, Specials, Testimonials, About, Footer.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Home Section
 
-### Code Splitting
+The home section provides a welcoming introduction to the restaurant, highlighting its location and offering a call-to-action button for table reservations.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Home Section](images/home-page.png)
 
-### Analyzing the Bundle Size
+### Specials Section
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This section showcases the weekly specials, featuring enticing images, descriptions and price of menu items, each with an "Order Now" button to encourage user engagement.
 
-### Making a Progressive Web App
+![Specials Section](images/specials-page.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Testimonials Section
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The testimonials section features reviews and feedback from satisfied customers, adding credibility and trust to the restaurant's reputation.
 
-### Deployment
+![Testimonials Section](images/testimonials-page.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## About Section
 
-### `npm run build` fails to minify
+The about section provides information about the restaurant, its history, and its mission, helping users to connect with the brand and understand its values.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![About Section](images/about-page.png)
+
+## Footer Section
+
+The footer section contains important links and information, including contact details, social media links, and copyright information, providing users with easy access to additional resources and ways to connect with the restaurant.
+
+![Footer Section](images/footer-page.png)
+
+
+## Login Page
+
+Users can log in with their details to access and manage their reservations. 
+
+![Login Page](images/login-page.png)
+
+## Table Reservation Page
+
+The table reservation page allows users to select a date, time, number of guests and seating preferences for their reservation. The form validation ensures that all necessary information is provided before submission.
+
+![Table Reservation Page](images/reservation-page.png)
+
+## Confirmation Page
+
+After successfully making a reservation, users are redirected to the confirmation page, which provides details of the reservation and confirms that it has been successfully recorded.
+
+![Confirmation Page](images/confirmation-page.png)
+## Ideas for Future Development
+## Contact
+
+For any inquiries or feedback, please feel free to reach out:
+
+- **Name:** Lina Phadte
+- **Email:** [linaphadte29@gmail.com](mailto:linaphadte29@gmail.com)
+- **GitHub:** [https://github.com/linaphadte](https://github.com/linaphadte)
+
+You can also visit the project repository at [Restaurant Dine-In Reservation](https://github.com/linaphadte/little_lemon.git).
+
+
+
+
